@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B09F409E-76DB-4E02-91CC-16999142B737}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>V5MEscopeVES</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>V5MEscopeVES.My.MyApplication</StartupObject>
+    <AssemblyMajorVersion>5</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>Vibrant Technology, Inc.</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <ApplicationIcon>MEscopeVES_v5.ico</ApplicationIcon>
+    <RootNamespace>V5MEscopeVES</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>1A0AF1E6FBEEE06D3DC91FB53C5BF50900FF906C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MEscopeVES_v5_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SccProjectName>MEscopeVES_v5</SccProjectName>
+    <SccLocalPath>2~e3d30020-e791-4592-9b66-8d877d109d3a</SccLocalPath>
+    <SccAuxPath>http://vtserver/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{7BE9CE03-56BF-4682-9C06-78C68B134B30}</SccProvider>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.vibetech.com</SupportUrl>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>ME%27scopeVES</ProductName>
+    <PublisherName>Vibrant Technology, Inc.</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>5.0.1.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>V5MEscopeVES.xml</DocumentationFile>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>V5MEscopeVES.xml</DocumentationFile>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>VibrantStrongName.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <DocumentationFile>V5MEscopeVES.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <DocumentationFile>V5MEscopeVES.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType />
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x86'">
+    <Reference Include="DirectX9">
+      <HintPath>..\Vibrant.UI.Direct3D\bin\x86\DirectX9.dll</HintPath>
+    </Reference>
+    <Reference Include="VibrantUnmanaged">
+      <HintPath>..\Vibrant\bin\x86\VibrantUnmanaged.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x64'">
+    <Reference Include="DirectX9">
+      <HintPath>..\Vibrant.UI.Direct3D\bin\x64\DirectX9.dll</HintPath>
+    </Reference>
+    <Reference Include="VibrantUnmanaged">
+      <HintPath>..\Vibrant\bin\x64\VibrantUnmanaged.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AFPoly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7aea50ecd20062d7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AFPoly.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win, Version=6.0.3501.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.Spread, Version=6.0.3501.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="hasp_net_windows, Version=5.10.1.17536, Culture=neutral, PublicKeyToken=56120be447701319, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\hasp_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Infragistics\NetAdvantage 2011.1\Windows Forms\Bin\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Infragistics\NetAdvantage 2011.1\Windows Forms\Bin\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Infragistics\NetAdvantage 2011.1\Windows Forms\Bin\Infragistics2.Win.UltraWinChart.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Infragistics\NetAdvantage 2011.1\Windows Forms\Bin\Infragistics2.Win.UltraWinDock.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Infragistics\NetAdvantage 2011.1\Windows Forms\Bin\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Interop.MFUSTORAGECTRLLib, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\Interop.MFUSTORAGECTRLLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MEscopeCommand, Version=5.0.2008.331, Culture=neutral, PublicKeyToken=1fbfa51a4015957f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MEscopeCommand.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="Vibrant" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acoustics_ABCWeight.designer.vb">
+      <DependentUpon>Acoustics_ABCWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_ABCWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acoustics_Intensity.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Acoustics_Intensity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_Intensity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acoustics_NarrowToOctave.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Acoustics_NarrowToOctave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_NarrowToOctave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acoustics_PIIndex.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Acoustics_PIIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_PIIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acoustics_SPL.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Acoustics_SPL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_SPL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acoustics_ToneCalibrate.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Acoustics_ToneCalibrate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acoustics_ToneCalibrate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACQ_ChannelSelect.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ACQ_ChannelSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACQ_ChannelSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACQ_Module.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACQ_Options.designer.vb">
+      <DependentUpon>ACQ_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACQ_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACQ_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ACQ_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACQ_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="BLK_Acoustics.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_Import_v4.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_CurveFit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_CurveFit_MI.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_CurveFit_MI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_CurveFit_MI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_EditWindowType.Designer.vb">
+      <DependentUpon>BLK_EditWindowType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_EditWindowType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyVersion.vb" />
+    <Compile Include="BLK_TypeDef.vb" />
+    <Compile Include="BlockImportBase.vb" />
+    <Compile Include="FormSpreadSheet.Designer.vb">
+      <DependentUpon>FormSpreadsheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSpreadsheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="License.vb" />
+    <Compile Include="LicenseOption.vb" />
+    <Compile Include="LicensePackage.vb" />
+    <Compile Include="MechaniCom\MechaniComData.vb" />
+    <Compile Include="MechaniCom\DataContext.vb" />
+    <Compile Include="MechaniCom\DatabaseConnectionForm.Designer.vb">
+      <DependentUpon>DatabaseConnectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MechaniCom\DatabaseConnectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MechaniCom\MEscopeMachine.vb" />
+    <Compile Include="MechaniCom\MappingForm.Designer.vb">
+      <DependentUpon>MappingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MechaniCom\MappingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelComponents.vb" />
+    <Compile Include="RichTextBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VES_AddedFileDialog.Designer.vb">
+      <DependentUpon>VES_AddedFileDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_AddedFileDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowSelector.vb" />
+    <Compile Include="Programmability.vb" />
+    <Compile Include="StructureRenderer.vb" />
+    <Compile Include="STR_FEA_Module.vb" />
+    <Compile Include="TabManager.vb" />
+    <Compile Include="DataBlock.vb">
+    </Compile>
+    <Compile Include="ShapeTable.vb" />
+    <Compile Include="STR_FEA_CalcModes.Designer.vb">
+      <DependentUpon>STR_FEA_CalcModes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_FEA_CalcModes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGM_Options.Designer.vb">
+      <DependentUpon>PGM_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PGM_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGM_Module.vb" />
+    <Compile Include="RTF_Module.vb" />
+    <Compile Include="SelectStartSkip.Designer.vb">
+      <DependentUpon>SelectStartSkip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectStartSkip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_GateWay.Designer.vb">
+      <DependentUpon>VES_GateWay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_GateWay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PolesPlot.Designer.vb">
+      <DependentUpon>PolesPlot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PolesPlot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHP_UMMShape.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SHP_UMMShape.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHP_UMMShape.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_HorizontalScale.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_HorizontalScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_HorizontalScale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Import.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Import_Mod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_Import_Select.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_Import_Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_Import_Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_MIMO.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_MIMO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_MIMO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_MIMOAveraging.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_MIMOAveraging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_MIMOAveraging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_MIMO_AVD.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_MIMO_AVD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_MIMO_AVD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_MIMO_Mod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_MIMO_Trigger.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_MIMO_Trigger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_MIMO_Trigger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Module.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLK_MultiColorTraces.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_MultiColorTraces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_MultiColorTraces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_New.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_ODSFRF.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_ODSFRF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_ODSFRF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_ODSOrderTrack.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_ODSOrderTrack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_ODSOrderTrack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Options.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Properties.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_Properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_Properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_RemoveDC.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_RemoveDC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_RemoveDC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_ScaleTraces.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_ScaleTraces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_ScaleTraces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_SelectRowCol.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_SelectRowCol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_SelectRowCol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_SpectrumAnal.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_SpectrumAnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_SpectrumAnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_VerticalScale.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_VerticalScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_VerticalScale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BLK_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>BLK_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BLK_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonSelectionList.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>CommonSelectionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommonSelectionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplexityPlot.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ComplexityPlot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComplexityPlot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBase_Definitions.vb" />
+    <Compile Include="DOF_Generator.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>DOF_Generator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOF_Generator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForcedResponse.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ForcedResponse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForcedResponse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRF_Synthesis.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>FRF_Synthesis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRF_Synthesis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintWindowDialog.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>PrintWindowDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintWindowDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MACValues.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>MACValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MACValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_ChooseMotionEquationDir.Designer.vb">
+      <DependentUpon>STR_ChooseMotionEquationDir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_ChooseMotionEquationDir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_Options.Designer.vb">
+      <DependentUpon>STR_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_Interface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RTF_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>RTF_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RTF_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectByListBox.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SelectByListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectByListBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDelimiters.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SelectDelimiters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectDelimiters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectSourceFile.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SelectSourceFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectSourceFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShapeMagnitudes.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ShapeMagnitudes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShapeMagnitudes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShapeProduct.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ShapeProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShapeProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHP_Module.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SHP_New.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SHP_New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHP_New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHP_Options.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SHP_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHP_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHP_Properties.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SHP_Properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHP_Properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHP_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SHP_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHP_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SizingForm.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SizingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortListBox.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SortListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SortListBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceRankForm.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>SourceRankForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SourceRankForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_AssignMeasurements.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_AssignMeasurements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_AssignMeasurements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_CreateAVI.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_FEAElements.Designer.vb">
+      <DependentUpon>STR_FEAElements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_FEAElements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_FEAMatl.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_FEAMatl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_FEAMatl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_FEAProp.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_FEAProp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_FEAProp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_Import_v4.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_Import.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_Interpolate.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_Interpolate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_Interpolate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_MakeMovies.Designer.vb">
+      <DependentUpon>STR_MakeMovies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_MakeMovies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_ManualAssign.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_ManualAssign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_ManualAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_Mesh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_Module.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_NumberPoints.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_NumberPoints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_NumberPoints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_RotateObjects.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_RotateObjects.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_RotateObjects.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_Elements.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_ModalPlot.Designer.vb">
+      <DependentUpon>STR_SDM_ModalPlot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_ModalPlot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_ModalSensitivity.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_SDM_ModalSensitivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_ModalSensitivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_ModelUpdating.designer.vb">
+      <DependentUpon>STR_SDM_ModelUpdating.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_ModelUpdating.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_ScaleModes.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_SDM_ScaleModes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_ScaleModes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_ScaleShpSelect.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_SDM_ScaleShpSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_ScaleShpSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SDM_TunedAbs.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_SDM_TunedAbs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SDM_TunedAbs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SubStrColors.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_SubStrColors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SubStrColors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_SubStructSelect.Designer.vb">
+      <DependentUpon>STR_SubStructSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_SubStructSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STR_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>STR_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STR_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimedDialog.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>TimedDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimedDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeDefinition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_About.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_Constants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_DemoStart.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_DemoStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_DemoStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_InternetLicensing.Designer.vb">
+      <DependentUpon>VES_InternetLicensing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_InternetLicensing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_KeyModule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_Module.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_NewFileName.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_NewFileName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_NewFileName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_Options.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGM_Window.Designer.vb">
+      <DependentUpon>PGM_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PGM_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_SecurityCode.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_SecurityCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_SecurityCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_Utilities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_Utilities_DOFsAndUnits.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_Utilities_Math.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_Utilities_String.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VES_Window.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>VES_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VES_DataBaseInfo.Designer.vb">
+      <DependentUpon>VES_DataBaseInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VES_DataBaseInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web References\us.vibrantfiles.www\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Resources\WindowImageList_23.ico" />
+    <None Include="Resources\WindowImageList_22.ico" />
+    <None Include="Resources\WindowImageList_21.ico" />
+    <None Include="Resources\WindowImageList_20.ico" />
+    <None Include="Resources\WindowImageList_19.ico" />
+    <None Include="Resources\WindowImageList_18.ico" />
+    <None Include="bin\MEscopePhoenix.vt" />
+    <None Include="Resources\WindowImageList_17.Bmp" />
+    <None Include="Resources\WindowImageList_16.Bmp" />
+    <None Include="Resources\WindowImageList_15.Bmp" />
+    <None Include="Resources\OptionImageList_2.Bmp" />
+    <None Include="Resources\WindowImageList_14.Bmp" />
+    <None Include="Resources\WindowImageList_13.Bmp" />
+    <None Include="Resources\WindowImageList_12.Bmp" />
+    <None Include="Resources\WindowImageList_11.Bmp" />
+    <None Include="Resources\WindowImageList_10.Bmp" />
+    <None Include="Resources\WindowImageList_9.Bmp" />
+    <None Include="Resources\WindowImageList_8.Bmp" />
+    <None Include="Resources\WindowImageList_7.Bmp" />
+    <None Include="Resources\WindowImageList_6.Bmp" />
+    <None Include="Resources\WindowImageList_5.Bmp" />
+    <None Include="Resources\WindowImageList_4.Bmp" />
+    <None Include="Resources\WindowImageList_3.Bmp" />
+    <None Include="Resources\WindowImageList_2.Bmp" />
+    <None Include="Resources\WindowImageList_1.Bmp" />
+    <None Include="Resources\WindowImageList_0.Bmp" />
+    <None Include="Resources\SS_ShowHide.png" />
+    <None Include="Resources\SS_SelectNone.png" />
+    <None Include="Resources\SS_SelectInvert.png" />
+    <None Include="Resources\SS_SelectBy.png" />
+    <None Include="Resources\SS_SelectAll.png" />
+    <None Include="Resources\SS_Reset.png" />
+    <None Include="Resources\SS_Print.png" />
+    <None Include="Resources\SS_CopyToClipboard.png" />
+    <None Include="Resources\OptionImageList_6.Bmp" />
+    <None Include="Resources\OptionImageList_5.Bmp" />
+    <None Include="Resources\OptionImageList_4.Bmp" />
+    <None Include="Resources\OptionImageList_3.Bmp" />
+    <None Include="Resources\OptionImageList_1.Bmp" />
+    <None Include="Resources\OptionImageList_0.Bmp" />
+    <EmbeddedResource Include="Acoustics_ABCWeight.resX">
+      <DependentUpon>Acoustics_ABCWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acoustics_Intensity.resX">
+      <DependentUpon>Acoustics_Intensity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acoustics_NarrowToOctave.resX">
+      <DependentUpon>Acoustics_NarrowToOctave.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acoustics_PIIndex.resX">
+      <DependentUpon>Acoustics_PIIndex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acoustics_SPL.resX">
+      <DependentUpon>Acoustics_SPL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acoustics_ToneCalibrate.resX">
+      <DependentUpon>Acoustics_ToneCalibrate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACQ_ChannelSelect.resX">
+      <DependentUpon>ACQ_ChannelSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACQ_Options.resx">
+      <DependentUpon>ACQ_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACQ_Window.resX">
+      <DependentUpon>ACQ_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_CurveFit_MI.resX">
+      <DependentUpon>BLK_CurveFit_MI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_EditWindowType.resx">
+      <DependentUpon>BLK_EditWindowType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSpreadsheet.resx">
+      <DependentUpon>FormSpreadsheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MechaniCom\DatabaseConnectionForm.resx">
+      <DependentUpon>DatabaseConnectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MechaniCom\MappingForm.resX">
+      <DependentUpon>MappingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGM_Options.resx">
+      <DependentUpon>PGM_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PolesPlot.resX">
+      <DependentUpon>PolesPlot.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectStartSkip.resx">
+      <DependentUpon>SelectStartSkip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHP_UMMShape.resX">
+      <DependentUpon>SHP_UMMShape.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_HorizontalScale.resX">
+      <DependentUpon>BLK_HorizontalScale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_Import.resX">
+      <DependentUpon>BLK_Import.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_Import_Select.resX">
+      <DependentUpon>BLK_Import_Select.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_MIMO.resX">
+      <DependentUpon>BLK_MIMO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_MIMOAveraging.resX">
+      <DependentUpon>BLK_MIMOAveraging.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_MIMO_AVD.resX">
+      <DependentUpon>BLK_MIMO_AVD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_MIMO_Trigger.resX">
+      <DependentUpon>BLK_MIMO_Trigger.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_MultiColorTraces.resX">
+      <DependentUpon>BLK_MultiColorTraces.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_New.resX">
+      <DependentUpon>BLK_New.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_ODSFRF.resX">
+      <DependentUpon>BLK_ODSFRF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_ODSOrderTrack.resX">
+      <DependentUpon>BLK_ODSOrderTrack.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_Options.resX">
+      <DependentUpon>BLK_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_Properties.resX">
+      <DependentUpon>BLK_Properties.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_RemoveDC.resX">
+      <DependentUpon>BLK_RemoveDC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_ScaleTraces.resX">
+      <DependentUpon>BLK_ScaleTraces.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_SelectRowCol.resX">
+      <DependentUpon>BLK_SelectRowCol.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_SpectrumAnal.resX">
+      <DependentUpon>BLK_SpectrumAnal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_VerticalScale.resX">
+      <DependentUpon>BLK_VerticalScale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLK_Window.resX">
+      <DependentUpon>BLK_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonSelectionList.resX">
+      <DependentUpon>CommonSelectionList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplexityPlot.resX">
+      <DependentUpon>ComplexityPlot.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOF_Generator.resX">
+      <DependentUpon>DOF_Generator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForcedResponse.resX">
+      <DependentUpon>ForcedResponse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRF_Synthesis.resX">
+      <DependentUpon>FRF_Synthesis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintWindowDialog.resX">
+      <DependentUpon>PrintWindowDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MACValues.resX">
+      <DependentUpon>MACValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTF_Window.resX">
+      <DependentUpon>RTF_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectByListBox.resX">
+      <DependentUpon>SelectByListBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDelimiters.resX">
+      <DependentUpon>SelectDelimiters.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSourceFile.resX">
+      <DependentUpon>SelectSourceFile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShapeMagnitudes.resX">
+      <DependentUpon>ShapeMagnitudes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShapeProduct.resX">
+      <DependentUpon>ShapeProduct.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHP_New.resX">
+      <DependentUpon>SHP_New.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHP_Options.resX">
+      <DependentUpon>SHP_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHP_Properties.resX">
+      <DependentUpon>SHP_Properties.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHP_Window.resX">
+      <DependentUpon>SHP_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizingForm.resX">
+      <DependentUpon>SizingForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortListBox.resX">
+      <DependentUpon>SortListBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceRankForm.resX">
+      <DependentUpon>SourceRankForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_AssignMeasurements.resX">
+      <DependentUpon>STR_AssignMeasurements.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_ChooseMotionEquationDir.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>STR_ChooseMotionEquationDir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_FEAElements.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>STR_FEAElements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_FEAMatl.resX">
+      <DependentUpon>STR_FEAMatl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_FEAProp.resX">
+      <DependentUpon>STR_FEAProp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_FEA_CalcModes.resx">
+      <DependentUpon>STR_FEA_CalcModes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_Interpolate.resX">
+      <DependentUpon>STR_Interpolate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_MakeMovies.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>STR_MakeMovies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_ManualAssign.resX">
+      <DependentUpon>STR_ManualAssign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_NumberPoints.resX">
+      <DependentUpon>STR_NumberPoints.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_Options.resX">
+      <DependentUpon>STR_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_RotateObjects.resX">
+      <DependentUpon>STR_RotateObjects.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_ModalPlot.resx">
+      <DependentUpon>STR_SDM_ModalPlot.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_ModalSensitivity.resX">
+      <DependentUpon>STR_SDM_ModalSensitivity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_ModelUpdating.resX">
+      <DependentUpon>STR_SDM_ModelUpdating.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_ScaleModes.resX">
+      <DependentUpon>STR_SDM_ScaleModes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_ScaleShpSelect.resX">
+      <DependentUpon>STR_SDM_ScaleShpSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SDM_TunedAbs.resX">
+      <DependentUpon>STR_SDM_TunedAbs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SubStrColors.resX">
+      <DependentUpon>STR_SubStrColors.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_SubStructSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>STR_SubStructSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STR_Window.resX">
+      <DependentUpon>STR_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimedDialog.resX">
+      <DependentUpon>TimedDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_About.resX">
+      <DependentUpon>VES_About.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_AddedFileDialog.resx">
+      <DependentUpon>VES_AddedFileDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_DataBaseInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VES_DataBaseInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_DemoStart.resX">
+      <DependentUpon>VES_DemoStart.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_GateWay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VES_GateWay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_InternetLicensing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VES_InternetLicensing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_NewFileName.resX">
+      <DependentUpon>VES_NewFileName.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_Options.resX">
+      <DependentUpon>VES_Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGM_Window.resx">
+      <DependentUpon>PGM_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_SecurityCode.resX">
+      <DependentUpon>VES_SecurityCode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VES_Window.resX">
+      <DependentUpon>VES_Window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="bin\AFPoly.dll" />
+    <Content Include="bin\AFPolyHost.exe" />
+    <Content Include="bin\AFPolyServer.dll" />
+    <Content Include="bin\AFPolyUtilities.dll" />
+    <Content Include="bin\apidsp_windows.dll" />
+    <Content Include="bin\apidsp_windows_x64.dll" />
+    <Content Include="bin\AxInterop.MFUSTORAGECTRLLib.dll" />
+    <Content Include="bin\AxInterop.REZctrl.dll" />
+    <Content Include="bin\DataBase.dll" />
+    <Content Include="bin\DllIniTools.dll" />
+    <Content Include="bin\DllNotification.dll" />
+    <Content Include="bin\DoubleHammerHit.wav" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.xml" />
+    <Content Include="bin\HASPVB32.DLL" />
+    <Content Include="bin\hasp_net_windows.dll" />
+    <Content Include="bin\hasp_windows_57851.dll" />
+    <Content Include="bin\hasp_windows_x64_57851.dll" />
+    <Content Include="bin\HDAccess.dll" />
+    <Content Include="bin\Interop.MFUSTORAGECTRLLib.dll" />
+    <Content Include="bin\LibTextConvert.dll" />
+    <Content Include="bin\MEscopeLink.dll" />
+    <Content Include="bin\NVGateResultFile.dll" />
+    <Content Include="bin\OROSCom.dll" />
+    <Content Include="bin\Resultat.dll" />
+    <Content Include="bin\RTBExVB.dll" />
+    <Content Include="bin\SignalFile.dll" />
+    <Content Include="bin\TriggerArmed.Wav" />
+    <Content Include="bin\TriggerDisarmed.Wav" />
+    <Content Include="bin\TriggerFired.Wav" />
+    <Content Include="bin\VES Language.exe" />
+    <Content Include="MEscopeVES_v5.ico" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\AlarmShort.wav" />
+    <None Include="Resources\AlarmShortDouble.wav" />
+    <None Include="Resources\AlarmLong.wav" />
+    <Content Include="Resources\Arrow Down.png" />
+    <Content Include="Resources\Arrow Up.png" />
+    <Content Include="Resources\ArrowDown.png" />
+    <Content Include="Resources\ArrowUp.png" />
+    <Content Include="Resources\buttonGreen_down.png" />
+    <Content Include="Resources\buttonRed_down.png" />
+    <Content Include="Resources\Clock Digital Progress.png" />
+    <Content Include="Resources\Close.png" />
+    <Content Include="Resources\Close1.png" />
+    <Content Include="Resources\Collapse Down.png" />
+    <Content Include="Resources\Collapse Up.png" />
+    <Content Include="Resources\Collapse Up1.png" />
+    <Content Include="Resources\CollapseDown.png" />
+    <Content Include="Resources\CollapseUp.png" />
+    <None Include="Resources\Defragmentation.ico" />
+    <None Include="Resources\DefaultSubstructuresList_0.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_1.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_10.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_11.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_12.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_2.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_3.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_4.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_5.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_6.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_7.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_8.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_9.bmp" />
+    <None Include="Resources\DefaultSubstructuresList_13.bmp" />
+    <Content Include="Resources\Connected.ico" />
+    <Content Include="Resources\Gateway.jpg" />
+    <None Include="Resources\Window View Details1.ico" />
+    <None Include="Resources\Window View Details.ico" />
+    <None Include="Resources\MechaniControllerBackground.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\AddSmall.png" />
+    <None Include="Resources\SaveSmall.png" />
+    <None Include="Resources\SaveBig.png" />
+    <None Include="Resources\AddBig.png" />
+    <None Include="Resources\Trash Can.png" />
+    <None Include="Resources\buttonGreen.png" />
+    <None Include="VibrantStrongName.snk" />
+    <None Include="Web References\us.vibrantfiles.www\VibrantServices.disco" />
+    <None Include="Resources\Mini.jpg" />
+    <EmbeddedResource Include="Resources\HandDragFile.Cur" />
+    <EmbeddedResource Include="Resources\HandDragFolder.Cur" />
+    <EmbeddedResource Include="Resources\HandDropFile.Cur" />
+    <EmbeddedResource Include="Resources\HandDropFolder.Cur" />
+    <None Include="x64.obproj" />
+    <None Include="x86.obproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\ME%27scope Library.VTprj" />
+    <None Include="bin\ME%27scopeVESHelp.chm" />
+    <None Include="bin\TemplateDB.SDF" />
+    <None Include="bin\VESLanguage.vt" />
+    <None Include="MEscope.cd" />
+    <None Include="MEscopeVES_v5_TemporaryKey.pfx" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\pushpin.dds" />
+    <None Include="Resources\Shaders\BlinnPhongShader.fx" />
+    <None Include="Web References\us.vibrantfiles.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\us.vibrantfiles.www\VibrantServices.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Infragistics.Shared.v5.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics.Win.UltraWinToolbars.v5.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics.Win.v5.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.vibrantfiles.us/VibrantServices.asmx%3fop=TransferData">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\us.vibrantfiles.www\</RelPath>
+      <UpdateFromURL>http://www.vibrantfiles.us/VibrantServices.asmx%3fop=TransferData</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>V5MEscopeVES_us_vibrantfiles_www_Services</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MechaniCom\MechaniCom.vbproj">
+      <Project>{6372879D-2219-4855-81F9-CA50B9D4FF89}</Project>
+      <Name>MechaniCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant.DataAccess\Vibrant.DataAccess.vbproj">
+      <Project>{BB90767F-D810-4F0D-99B9-74946149C675}</Project>
+      <Name>Vibrant.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant.Mechanics.Acquisitions\Vibrant.Mechanics.Acquisitions.vbproj">
+      <Project>{73B4FED2-6822-4198-AC57-0D04D3DE4BBC}</Project>
+      <Name>Vibrant.Mechanics.Acquisitions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant.Mechanics\Vibrant.Mechanics.vbproj">
+      <Project>{308DDC16-368E-4A22-8312-1241AEE79BD0}</Project>
+      <Name>Vibrant.Mechanics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant.UI.Direct3D\Vibrant.UI.Direct3D.vbproj">
+      <Project>{BCF63D0A-BC18-4BCC-99C0-7683F919C879}</Project>
+      <Name>Vibrant.UI.Direct3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant.UI\Vibrant.UI.vbproj">
+      <Project>{E59B930E-CBA0-42BB-B879-733189E470FD}</Project>
+      <Name>Vibrant.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vibrant\Vibrant.vbproj">
+      <Project>{FA00F120-C20C-4FB9-BABD-3113B27551E0}</Project>
+      <Name>Vibrant</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x64\" />
+    <Folder Include="bin\x86\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if EXIST "$(TargetDir)" del "$(TargetDir)" /q /f
+
+xcopy "$(ProjectDir)bin\*.*" "$(TargetDir)" /y /c
+xcopy "$(ProjectDir)bin\$(PlatformName)\*.*" "$(TargetDir)" /y /c
+
+xcopy "$(ProjectDir)..\Vibrant\bin\*.*" "$(TargetDir)" /y 
+xcopy "$(ProjectDir)..\Vibrant\bin\$(PlatformName)\*.*" "$(TargetDir)" /y /c 
+
+xcopy "$(ProjectDir)..\Vibrant.DataAccess\bin\*.*" "$(TargetDir)" /y /c 
+xcopy "$(ProjectDir)..\Vibrant.DataAccess\bin\$(PlatformName)\*.*" "$(TargetDir)" /y /c 
+
+xcopy "$(ProjectDir)..\Vibrant.Mechanics.Acquisitions\bin\*.*" "$(TargetDir)" /y /c 
+xcopy "$(ProjectDir)..\Vibrant.Mechanics.Acquisitions\bin\$(PlatformName)\*.*" "$(TargetDir)" /y /c 
+
+xcopy "$(ProjectDir)..\Vibrant.UI.Direct3D\bin\*.*" "$(TargetDir)" /y /c 
+xcopy "$(ProjectDir)..\Vibrant.UI.Direct3D\bin\$(PlatformName)\*.*" "$(TargetDir)" /y /c</PreBuildEvent>
+    <PostBuildEvent>if not "$(ConfigurationName)" == "Release" goto quit
+if not EXIST "C:\Program Files (x86)\Crypto Obfuscator\co.exe" goto quit
+
+"C:\Program Files (x86)\Crypto Obfuscator\co.exe" projectfile="$(ProjectDir)$(PlatformName).obproj" 
+
+xcopy "$(TargetDir)crypto\*.*" "$(TargetDir)" /u /y
+
+:quit</PostBuildEvent>
+  </PropertyGroup>
+</Project>

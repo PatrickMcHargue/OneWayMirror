@@ -1,0 +1,17 @@
+C:\Developer\Pat's Programs\UIelements\bin\x86\Debug\UIelements.dll
+C:\Developer\Pat's Programs\UIelements\bin\x86\Debug\UIelements.pdb
+C:\Developer\Pat's Programs\UIelements\bin\x86\Debug\UIelements.xml
+C:\Developer\Pat's Programs\UIelements\obj\x86\Debug\UIelements.Resources.resources
+C:\Developer\Pat's Programs\UIelements\obj\x86\Debug\UIelements.vbproj.GenerateResource.Cache
+C:\Developer\Pat's Programs\UIelements\obj\x86\Debug\UIelements.dll
+C:\Developer\Pat's Programs\UIelements\obj\x86\Debug\UIelements.xml
+C:\Developer\Pat's Programs\UIelements\obj\x86\Debug\UIelements.pdb
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.Resources.resources
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.vbproj.GenerateResource.cache
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.dll
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.xml
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.pdb
+D:\Personal GitHub\OneWayMirror\UIelements\bin\x86\Debug\UIelements.dll
+D:\Personal GitHub\OneWayMirror\UIelements\bin\x86\Debug\UIelements.pdb
+D:\Personal GitHub\OneWayMirror\UIelements\bin\x86\Debug\UIelements.xml
+D:\Personal GitHub\OneWayMirror\UIelements\obj\x86\Debug\UIelements.vbproj.CoreCompileInputs.cache

@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xp ProgressBar Demo", "Demo\Xp ProgressBar Demo.csproj", "{CE78A162-6634-47D3-90FD-50005E9C0298}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xp ProgressBar", "Control\Xp ProgressBar.csproj", "{98348D7A-6606-4CEA-BAC9-859D435C5988}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {3F06C842-0E66-4F9D-A97D-2B17EEFCEC52}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Debug.ActiveCfg = Debug|.NET
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Debug.Build.0 = Debug|.NET
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Release.ActiveCfg = Release|.NET
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Release.Build.0 = Release|.NET
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Debug.ActiveCfg = Debug|.NET
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Debug.Build.0 = Debug|.NET
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Release.ActiveCfg = Release|.NET
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

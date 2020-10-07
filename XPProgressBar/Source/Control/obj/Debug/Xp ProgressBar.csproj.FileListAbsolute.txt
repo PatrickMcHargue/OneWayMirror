@@ -1,0 +1,14 @@
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Release\Framework.Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Release\Framework.Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\Framework.Controls.XpProgressBar.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\ResGen.read.1.tlog
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\ResGen.write.1.tlog
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\Framework.Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Control\obj\Debug\Framework.Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\XPProgressBar\Release\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\XPProgressBar\Release\Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\Debug\Controls.XpProgressBar.resources
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\Debug\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\Debug\Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\Debug\Xp ProgressBar.csproj.GenerateResource.Cache

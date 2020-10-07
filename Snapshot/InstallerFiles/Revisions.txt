@@ -1,0 +1,75 @@
+
+-v1.0.2012.0919
+ Added statistics shown on completion.
+ Fixed an issue with the error message not being shown.
+ 
+-v1.0.2012.0912
+ Removed Administrator access request from the application's manifest.
+ The user may request administrator rights directly from the program.
+ Made the buttons more visible - they looked disabled before.
+ 
+-v1.0.2012.0904
+ Recoded for .Net 2.0
+
+-v1.0.2012.0825
+ Added an optional argument 'OnlyCommon' to restrict the copy to those files that already exist
+ in both the source and destination directories.
+ 
+ Fixed an issue with a background thread not closing properly.
+ 
+
+-v1.0.2012.0820
+ Fixed a problem  processing '.Owm' files that had lines without options on the line.
+
+ CA08421E451CD9249836F87E8E4807FC OneWayMirror_Setup_v1.0.2012.0820.exe
+ Link to installer: <https://docs.google.com/open?id=0B258H385xkQqTDR1YzQtRlN1U2M>
+
+
+-v1.0.2012.0818
+ Removed a dialog messaging the user about the inability to read protected directories.
+ Added Administrator rights elevation to the application start.
+ Added the ability to remember, and provide as a list, the last 8 source & destination directories.
+ Made the application window wider to allow more space for longer disk path names.
+ Improved processing of in-line command parameters.
+ Improved iteration over multiple line '.Owm' files for batch processing of backup commands.
+ More testing
+
+
+-v1.0.2012.0301
+ Changed the program to use a background thread when recursing directories, and copying files.
+ While the background thread is executing, you may now cancel the operation of the application.
+ 
+
+-v1.0.2012.0204
+ Fixed an issue with read-only destination files
+ Fixed an issue with special directories under the root of a drive
+ Fixed an issue with copying files from the root of a drive
+
+
+-v1.0.2011.1014
+ Added the ability to include/exclude 'System' and 'Hidden' Directories and Files.
+
+
+-v1.0.2011.1014
+ Testing, testing, testing.
+ Minor change to accommodate Read-Only files in the destination directory.
+
+
+-v1.0.2011.1011
+ Testing.
+ Added support for canceling while building directory list.
+ Added support for detecting running copies of the application during install/uninstall.
+ 
+
+-v1.0.2011.1010
+ Testing.
+ Fixed a problem with comment lines.
+ Added the ability to minimize.
+ 
+
+-v1.0.2011.1008
+ Enhanced error messages.
+ 
+
+-v1.0.2011.1007
+ First edition of the program.

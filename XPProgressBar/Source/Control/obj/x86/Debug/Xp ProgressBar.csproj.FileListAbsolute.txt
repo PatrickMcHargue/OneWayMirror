@@ -1,0 +1,15 @@
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\bin\x86\Debug\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\bin\x86\Debug\Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\x86\Debug\Xp ProgressBar.csprojResolveAssemblyReference.cache
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\x86\Debug\Controls.XpProgressBar.resources
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\x86\Debug\Xp ProgressBar.csproj.GenerateResource.Cache
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\x86\Debug\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\XPProgressBar\Source\Control\obj\x86\Debug\Controls.ProgressBar.pdb
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\bin\x86\Debug\Controls.ProgressBar.dll
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\bin\x86\Debug\Controls.ProgressBar.pdb
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\Xp ProgressBar.csprojAssemblyReference.cache
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\Xp ProgressBar.csproj.GenerateResource.cache
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\Xp ProgressBar.csproj.CoreCompileInputs.cache
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\Controls.ProgressBar.dll
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\Controls.ProgressBar.pdb
+D:\Personal GitHub\OneWayMirror\XPProgressBar\Source\Control\obj\x86\Debug\XpControls.XpProgressBar.resources

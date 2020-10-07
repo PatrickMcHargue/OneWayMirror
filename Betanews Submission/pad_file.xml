@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.50 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>My Solutions</Company_Name>
+		<Address_1 />
+		<Address_2 />
+		<City_Town />
+		<State_Province />
+		<Zip_Postal_Code />
+		<Country />
+		<Company_WebSite_URL />
+		<Contact_Info>
+			<Author_First_Name>Patrick</Author_First_Name>
+			<Author_Last_Name>McHargue</Author_Last_Name>
+			<Author_Email>Patrick.McHargue@gmail.com</Author_Email>
+			<Contact_First_Name>Patrick</Contact_First_Name>
+			<Contact_Last_Name>McHargue</Contact_Last_Name>
+			<Contact_Email>Patrick.McHargue@gmail.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email />
+			<Support_Email />
+			<General_Email>Patrick.McHargue@gmail.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>One Way Mirror</Program_Name>
+		<Program_Version>1.0.2013.0222</Program_Version>
+		<Program_Release_Month>01</Program_Release_Month>
+		<Program_Release_Day>22</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support />
+		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinVista x64,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>Added support for script files</Program_Change_Info>
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::File &amp; Disk Management</Program_Category_Class>
+		<Program_System_Requirements>.Net 2.0</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes />
+			<File_Size_K />
+			<File_Size_MB />
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Backup, mirror, copy</Keywords>
+			<Char_Desc_45>Utility mirrors files between directories</Char_Desc_45>
+			<Char_Desc_80>A simple to use backup utility that mirrors files between directories</Char_Desc_80>
+			<Char_Desc_250>One Way Mirror will mirror all Files and Directories in the Source Directory into those same-named Files and Directories in the Destination Directory.  Only newer files will be copied, and no files or directories will be deleted in the Destination</Char_Desc_250>
+			<Char_Desc_450>One Way Mirror will mirror all Files and Directories in the Source Directory into those same-named Files and Directories in the Destination Directory.  Only newer files will be copied, and no files or directories will be deleted in the Destination Directory.
+
+Script files are also supported.  These can be used to maintain a list of Source and Destination directories, and the options for sopy files from the Source to the Destination.
+</Char_Desc_450>
+			<Char_Desc_2000>One Way Mirror is intended for use as a clean and simple backup mechanism for files &amp; folders.  It is used to copy directories and files that exist in, and under, the Source directory to those same-named directories and files in, and under, the Destination directory.
+
+No directories or files in the Source or Destination directories will be deleted!  No files in the Destination directory tree that are newer than their counterparts from the Source directory will be replaced!  However, any files in the Destination directory that are older than the files from the Source directory tree will be replaced.
+
+In this manner, One Way Mirror can be used to maintain a set of file copies in the Destination directory that mirror the files that exist in the Source directory.
+
+Note that One Way Mirror can be set to recurse directories in the Source directory, or not, as the need arises.  System and Hidden files can be included, or not.
+
+Another option is to copy only files that are common between the Source and Destination directories.  With this option, you can maintain just a certain set of files in the Destination directory that are refreshed from the files in the Source directory.
+
+One Way Mirror can be set to  run with Administrator rights in order to give it access to more directories, and files.   The button to re-launch One Way Mirror will be available if it is not already running with Administrative privilege, and will re-launch the application with a request for those elevated rights.
+
+If you need to always run One Way Mirror with elevated permisions, you can edit the shortcut to the application to run the application with elevated permissions, or you can tell windows to mark the file as one to run with elevated permissions.
+
+One Way Mirror also support (*.owm) sript files.  Each line of the script file follows the same syntax shown below for the designation of the Source and Destination directories, and the options used.  
+</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>https://docs.google.com/file/d/0B258H385xkQqaFFqR0J3ZGFXY1E/edit?usp=sharing</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>https://docs.google.com/file/d/0B258H385xkQqQUgzRkR6cGJsQTQ/edit?usp=sharing</Application_Screenshot_URL>
+			<Application_Icon_URL />
+			<Application_XML_File_URL />
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>https://docs.google.com/file/d/0B258H385xkQqR2F2SnE4T3B3WW8/edit?usp=sharing</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>One Way Mirror is freeware, and may be copied and distributed freely.</Distribution_Permissions>
+		<EULA>This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages arising from the use of this software</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

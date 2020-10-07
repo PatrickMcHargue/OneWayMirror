@@ -1,0 +1,325 @@
+; -------------------------------------------------
+; | Please do not modify this file by hand
+; | It may crash the program if mistakes are found
+; | Use BIM to modify it
+; -------------------------------------------------
+; | Last modified: Y=2012, M= 09, D=13 at 09:19:07
+; -------------------------------------------------
+[Header]
+FileID = Bytessence Install Maker
+FileVersion = 5
+; -------------------------------------------------
+[GeneralInformation]
+ProgramName = One Way Mirror
+ProgramVersion = 1.0.2012.0919
+ProgramWebsite = 
+SupportEmail = 
+CompanyName = MySolutions
+CopyrightString = Copyright (c) MySolutions
+OutputFile = C:\Developer\Pat's Programs\OneWayMirror\Installer\OneWayMirror_Setup_v1.0.2012.0919.exe
+IconFile = C:\Developer\Pat's Programs\OneWayMirror\Installer\InstallerIcon.ico
+InstallerBandText = <ProgramName> Setup
+InstallerWindowTitle = <ProgramName> Setup, version <ProgramVersion>
+CompressionAlgo = BLP/LZMA
+CompressionLevel = 3
+; -------------------------------------------------
+[InstallerExeInfo]
+CompanyName = MySolutions
+Copyright = © MySolutions
+Email = 
+FileDescription = One Way Mirror installer
+ProductName = One Way Mirror
+ProductVersion = 1.0.2011.1015
+Website = 
+MajorHigh = 1
+MajorLow = 0
+MinorHigh = 2011
+MinorLow = 1015
+; -------------------------------------------------
+[SystemRequirements]
+Win95 = 0
+WinNT4 = 0
+Win98 = 0
+WinMe = 0
+Win2000 = 1
+WinXP = 1
+Win2003 = 1
+WinVista = 1
+Win2008 = 1
+Win7 = 1
+InstallerType = 0
+RequireAdminRights = 1
+DotNETVersion = 3
+DotNETVisitWebpage = 1
+DotNETWebpageAddress = http://microsoft.com
+IEVersion = 0
+IEVisitWebpage = 0
+IEWebpageAddress = http://
+CheckSysRequirements = 0
+CheckCPUSpeed = 0
+CPUSpeedMin = 133
+CPUSpeedRec = 266
+CheckMemSize = 0
+MemSizeMin = 64
+MemSizeRec = 128
+CheckExtraSpace = 0
+ExtraSpaceScope = 0
+ExtraSpaceMin = 0
+ExtraSpaceRec = 0
+FailMinimumReqs = 1
+FailRecommendedReqs = 0
+RequireExistingItems = 0
+CheckForInstances = 1
+; -------------------------------------------------
+[CloseItemsInstaller]
+Items = 4159822
+; -------------------------------------------------
+[4159822]
+ID = 4159822
+Type = 1
+WindowName = One Way Mirror
+WindowClass = 
+MatchExactly = 1
+; -------------------------------------------------
+[RegistryVars]
+CreateRegistryVars = 0
+; -------------------------------------------------
+[FileConfig]
+ReplaceStatus = 0
+; -------------------------------------------------
+[Categories]
+Items = 48949135
+; -------------------------------------------------
+[48949135]
+ID = 48949135
+InternalName = MyProgram
+LocalizedNameID = 14793762
+; -------------------------------------------------
+[14793762]
+-1 = Program
+; -------------------------------------------------
+[Components]
+Items = 4603145
+; -------------------------------------------------
+[4603145]
+ID = 4603145
+CategoryID = 48949135
+InternalName = MainFiles
+LocalizedNameID = 22405944
+DescriptionID = 98669707
+PathVariable = <MainFiles>
+InstallationPath = <ProgramFiles>\<ProgramName>\
+IsPrincipal = 1
+IsPathEnforced = 1
+IsMandatory = 1
+IsMarked = 1
+; -------------------------------------------------
+[22405944]
+-1 = Main Program
+; -------------------------------------------------
+[98669707]
+-1 = Main Program Files
+; -------------------------------------------------
+[Folders]
+Items = 96686588
+; -------------------------------------------------
+[96686588]
+ID = 96686588
+ComponentID = 4603145
+FolderPath = C:\Developer\Pat's Programs\OneWayMirror\InstallerFiles\
+; -------------------------------------------------
+[DetectExistingInstallations]
+PromptUninstallExisting = 1
+Items = 65677629
+; -------------------------------------------------
+[65677629]
+ID = 65677629
+ProgramName = One Way Mirror 1.0.2012.0301
+ProgramVersion = 1.0.2012.0301
+Remove = 1
+; -------------------------------------------------
+[LookAndFeel]
+InstallerType = 0
+WizardImage = C:\Program Files (x86)\Bytessence InstallMaker\Graphics\Wizard\Classic_blue.bmp
+HeaderImage = C:\Program Files (x86)\Bytessence InstallMaker\Graphics\Header\Classic_blue.bmp
+HeaderTitleTextFont = MS Sans Serif
+HeaderTitleTextSize = 12
+HeaderTitleTextFlags = 256
+HeaderTitleTextPosX = 10
+HeaderTitleTextPosY = 13
+HeaderTitleTextColor = 0
+HeaderTitleTextShadow = 1
+HeaderTitleTextShadowColor = 14145495
+HeaderTextFont = MS Sans Serif
+HeaderTextSize = 10
+HeaderTextFlags = 0
+HeaderTextPosX = 15
+HeaderTextPosY = 34
+HeaderTextColor = 0
+HeaderTextShadow = 0
+HeaderTextShadowColor = 14145495
+ShowInformation = 1
+ShowLicense = 0
+ShowWebsiteLink = 0
+ShowCopyrightNotice = 0
+BKUseGradient = 1
+BKUsePicture = 0
+BKFirstColor = 8421504
+BKSecondColor = 16777215
+BKTextColor = 15132390
+BKVertical = 1
+BKHorizontal = 0
+BKPicturePath = 
+BKText = 
+BKShowCopyright = 0
+; -------------------------------------------------
+[ReadmeFiles]
+1033 = D:\Pat's Programs\OneWayMirror\InstallerFiles\Info.rtf
+-1 = C:\Developer\Pat's Programs\OneWayMirror\InstallerFiles\ReadMe.rtf
+; -------------------------------------------------
+[LicenseFiles]
+1033 = D:\Pat's Programs\OneWayMirror\InstallerFiles\License.rtf
+-1 = C:\Developer\Pat's Programs\OneWayMirror\InstallerFiles\LicenseAgreement.rtf
+; -------------------------------------------------
+[Localization]
+2 = 1033
+3 = 1036
+4 = 1031
+; -------------------------------------------------
+[InstallerSettings]
+CreateGroup = 1
+CustomStartMenuGroup = <ProgramName>
+CreateUninstallShortcut = 1
+CustomStartMenuUninstall = Uninstall <ProgramName>
+CreateInternetLink = 0
+CustomStartMenuWebLink = Website
+CreateSMProgramShortcut = 1
+SMProgramOutputPath = <startprograms>
+SMProgramOutputName = OneWayMirror
+SMProgramFilePath = <MainFiles>\OneWayMirror.exe
+SMProgramIconPath = 
+SMProgramIconIndex = 0
+SMProgramCommandLine = 
+SMProgramStartIn = 
+SMProgramComment = 
+SMProgramComponentID = 4603145
+CreateSMDocumentationShortcut = 0
+SMDocumentationOutputPath = <startprograms>
+SMDocumentationOutputName = ReadMe
+SMDocumentationFilePath = <MainFiles>\ReadMe.txt
+SMDocumentationIconPath = 
+SMDocumentationIconIndex = 0
+SMDocumentationCommandLine = 
+SMDocumentationStartIn = 
+SMDocumentationComment = 
+SMDocumentationComponentID = 4603145
+CreateSMReadmeShortcut = 1
+SMReadmeOutputPath = <startprograms>
+SMReadmeOutputName = ReadMe
+SMReadmeFilePath = <MainFiles>\ReadMe.txt
+SMReadmeIconPath = 
+SMReadmeIconIndex = 0
+SMReadmeCommandLine = 
+SMReadmeStartIn = 
+SMReadmeComment = 
+SMReadmeComponentID = 4603145
+CreateSMLicenseShortcut = 1
+SMLicenseOutputPath = <startprograms>
+SMLicenseOutputName = License
+SMLicenseFilePath = <MainFiles>\License.txt
+SMLicenseIconPath = 
+SMLicenseIconIndex = 0
+SMLicenseCommandLine = 
+SMLicenseStartIn = 
+SMLicenseComment = 
+SMLicenseComponentID = 4603145
+ShowRestartComputerCheckbox = 0
+LaunchProgramCheckbox = 1
+LaunchProgramProgramPath = <MainFiles>\OneWayMirror.exe
+LaunchProgramCommandLine = 
+LaunchProgramRunMode = 0
+LaunchProgramRunHidden = 0
+LaunchProgramWaitUntilQuit = 0
+LaunchProgramComponentID = 4603145
+ViewDocumentationCheckbox = 0
+ViewDocumentationProgramPath = 
+ViewDocumentationCommandLine = 
+ViewDocumentationRunMode = 1
+ViewDocumentationRunHidden = 0
+ViewDocumentationWaitUntilQuit = 0
+ViewDocumentationComponentID = 4603145
+ViewReadmeCheckbox = 1
+ViewReadmePath = <MainFiles>\ReadMe.txt
+ViewReadmeCommandLine = 
+ViewReadmeRunMode = 1
+ViewReadmeRunHidden = 0
+ViewReadmeWaitUntilQuit = 0
+ViewReadmeComponentID = 4603145
+ViewLicenseCheckbox = 1
+ViewLicensePath = <MainFiles>\License.txt
+ViewLicenseCommandLine = 
+ViewLicenseRunMode = 1
+ViewLicenseRunHidden = 0
+ViewLicenseWaitUntilQuit = 0
+ViewLicenseComponentID = 4603145
+VisitWebsiteCheckbox = 0
+VisitWebsiteAddress = http://
+; -------------------------------------------------
+[InstallerTasks]
+Items = 19914474
+; -------------------------------------------------
+[19914474]
+ID = 19914474
+Name = Add Extension
+Type = 5
+Win95 = 0
+WinNT4 = 0
+Win98 = 0
+WinMe = 0
+Win2000 = 0
+WinXP = 1
+WinServer2003 = 1
+WinVista = 1
+WinServer2008 = 1
+Win7 = 1
+ComponentID = 4603145
+ExePath = <MainFiles>\OneWayMirror.exe
+CommandLine = "%1"
+ExplorerDescription = Open File
+Extension = owm
+Icon = <MainFiles>\OneWayMirror.exe
+IconIndex = 0
+Description = One Way Mirror script file
+; -------------------------------------------------
+[UninstallerSettings]
+CreateUninstaller = 1
+CreateAddRemoveEntry = 1
+AddRemoveEntryName = <ProgramName> <ProgramVersion>
+UninstallerIconPath = C:\Developer\Pat's Programs\OneWayMirror\Installer\InstallerIcon.ico
+UninstRestartPC = 0
+CheckForInstances = 1
+; -------------------------------------------------
+[UninstallerExeInfo]
+CompanyName = MySolutions
+Copyright = © MySolutions
+Email = 
+FileDescription = One Way Mirror uninstaller
+ProductName = One Way Mirror
+ProductVersion = 1.0.2011.1011
+Website = 
+MajorHigh = 1
+MajorLow = 0
+MinorHigh = 2011
+MinorLow = 1011
+; -------------------------------------------------
+[SkipUninstallFiles]
+; -------------------------------------------------
+[CloseItemsUninstaller]
+Items = 76843373
+; -------------------------------------------------
+[76843373]
+ID = 76843373
+Type = 1
+WindowName = One Way Mirror
+WindowClass = 
+MatchExactly = 1

@@ -1,0 +1,8 @@
+One Way Mirror will mirror all Files and Directories in the Source Directory into those same-named Files and Directories in the Destination Directory.  Only newer files will be copied, and no files or directories will be deleted in the Destination Directory.
+
+Script files are also supported.  These can be used to maintain a list of Source and Destination directories, and the options for sopy files from the Source to the Destination.
+
+The drop-down lists used on One Way Mirror's interface will be maintained between application starts.  In this way,  a list of directories, and Script files, can be easily remembered, and re-used.
+
+
+One Way Mirror is freeware, and may be distributed freely.

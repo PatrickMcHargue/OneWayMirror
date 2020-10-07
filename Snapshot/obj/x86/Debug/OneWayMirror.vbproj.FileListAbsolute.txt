@@ -1,0 +1,59 @@
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.exe.config
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.exe.manifest
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.application
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.exe
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.pdb
+D:\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.xml
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.OneWayMirror.resources
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.Resources.resources
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\ResGen.read.1.tlog
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\ResGen.write.1.tlog
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.TrustInfo.xml
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.exe.manifest
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.application
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.exe
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.xml
+D:\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.pdb
+D:\Pat's Programs\OneWayMirror\bin\Debug\UIelements.dll
+D:\Pat's Programs\OneWayMirror\bin\Debug\UIelements.pdb
+D:\Pat's Programs\OneWayMirror\bin\Debug\UIelements.xml
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.exe.config
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.exe
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.xml
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.pdb
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.exe.manifest
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.application
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.exe
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.pdb
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\OneWayMirror.xml
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\UIelements.dll
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\UIelements.pdb
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\UIelements.xml
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\bin\Debug\Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.OneWayMirror.resources
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.Resources.resources
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\ResGen.read.1.tlog
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\ResGen.write.1.tlog
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.TrustInfo.xml
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.exe.manifest
+C:\Developer\Pat's Programs\OneWayMirror - Class Version\obj\x86\Debug\OneWayMirror.application
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.exe.config
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.exe
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.pdb
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\OneWayMirror.xml
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\Controls.ProgressBar.dll
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\UIelements.dll
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\UIelements.pdb
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\UIelements.xml
+C:\Developer\Pat's Programs\OneWayMirror\bin\Debug\Controls.ProgressBar.pdb
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.OneWayMirror.resources
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.Resources.resources
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\ResGen.read.1.tlog
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\ResGen.write.1.tlog
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.exe
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.xml
+C:\Developer\Pat's Programs\OneWayMirror\obj\x86\Debug\OneWayMirror.pdb

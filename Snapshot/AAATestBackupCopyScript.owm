@@ -1,0 +1,12 @@
+//just a comment, with nothing.
+//just another comment, with nothing.
+D:\Pat's Programs\ClassTest, D:\AAATemp\ClassTest, norecurse//
+//just a comment, with less.
+"D:\Pat's Programs\CopyCommonFiles", "D:\AAATemp\CopyCommonFiles",include//comment on a line.
+"D:\Pat's Programs\CsharpTest", "D:\AAATemp\CsharpTest", exclude
+"D:\Pat's Programs\IPC Examples", "D:\AAATemp\IPC Examples", recurse //comment what to say.
+//just a comment, with more.
+"D:\Pat's Programs\PictureSort", "D:\AAATemp\PictureSort"//an almost final comment.
+//a final comment
+
+

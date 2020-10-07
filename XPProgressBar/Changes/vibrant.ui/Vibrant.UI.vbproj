@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E59B930E-CBA0-42BB-B879-733189E470FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Vibrant.UI</RootNamespace>
+    <AssemblyName>Vibrant.UI</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>Vibrant.UI</SccProjectName>
+    <SccLocalPath>2~e3d30020-e791-4592-9b66-8d877d109d3a</SccLocalPath>
+    <SccAuxPath>http://vtserver/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{7BE9CE03-56BF-4682-9C06-78C68B134B30}</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>VibrantStrongName.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Vibrant.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiproSoftware.Ribbon.Wpf351, Version=11.1.542.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9" />
+    <Reference Include="FarPoint.Win, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\GrapeCity\Spread .NET 6\Windows Forms\v6.0.3501\bin\FarPoint.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win.Spread, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\GrapeCity\Spread .NET 6\Windows Forms\v6.0.3501\bin\FarPoint.Win.Spread.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Gauge.Wpf351, Version=11.1.542.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL" />
+    <Reference Include="ActiproSoftware.Shared.Wpf351, Version=11.1.542.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9" />
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinGauge.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.DockManager.v11.1, Version=11.1.20111.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.Editors.v11.1, Version=11.1.20111.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.Ribbon.v11.1, Version=11.1.20111.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.Tiles.v11.1, Version=11.1.20111.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.v11.1, Version=11.1.20111.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts, Version=4.5.1.0, Culture=neutral, PublicKeyToken=0cd785983078370b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\MEscopeVES_v5\AssemblyVersion.vb">
+      <Link>AssemblyVersion.vb</Link>
+    </Compile>
+    <Compile Include="HslColor.vb" />
+    <Compile Include="Forms\FlyoutTabs.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HsvColor.vb" />
+    <Compile Include="LabelLayout.vb" />
+    <Compile Include="StatusBarEventArgs.vb" />
+    <Compile Include="WPF\Charts\RangeChart.xaml.vb">
+      <DependentUpon>RangeChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\Charts\RangeBar.xaml.vb">
+      <DependentUpon>RangeBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\Charts\RangeChangedEventArgs.vb" />
+    <Compile Include="WPF\Charts\ViewModel.vb" />
+    <Compile Include="WPF\ComboMessageBox.xaml.vb">
+      <DependentUpon>ComboMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\ColorDialog.xaml.vb">
+      <DependentUpon>ColorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\CoreBrushes.vb" />
+    <Compile Include="WPF\CoreColors.vb" />
+    <Compile Include="WPF\GifImage.vb" />
+    <Compile Include="WPF\IPCameraImage.vb" />
+    <Compile Include="WPF\LoadingView.xaml.vb">
+      <DependentUpon>LoadingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\NumericUpDown.xaml.vb">
+      <DependentUpon>NumericUpDown.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\RibbonStates.vb" />
+    <Compile Include="WPF\SuperscriptUnitsTextBlock.vb" />
+    <Compile Include="ColorUtilities.vb" />
+    <Compile Include="Forms\TextAreaDialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPF\DesktopMessage.xaml.vb">
+      <DependentUpon>DesktopMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\ImageFactory.vb" />
+    <Compile Include="WPF\InputMessageBox.xaml.vb">
+      <DependentUpon>InputMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitledColorDialog.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Splitterbar.designer.vb">
+      <DependentUpon>Splitterbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Splitterbar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WPF\MouseDragControl.vb" />
+    <Compile Include="WPF\ImageConverter.vb" />
+    <Compile Include="WPF\LeftMouseListBox.vb" />
+    <Compile Include="WPF\ListMessageBox.xaml.vb">
+      <DependentUpon>ListMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Text.vb" />
+    <Compile Include="Forms\CommonDialog.Designer.vb">
+      <DependentUpon>CommonDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CommonDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPF\ElementHost.vb" />
+    <Compile Include="WPF\ResourceLibrary.vb" />
+    <Compile Include="WPF\Spreadsheet.vb" />
+    <Compile Include="WPF\RibbonableTile.vb" />
+    <Compile Include="WPF\VisualTreeExaminer.vb" />
+    <Compile Include="WPF\WarningGauge.xaml.vb">
+      <DependentUpon>WarningGauge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PicklistDialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageDialogBox.vb" />
+    <Compile Include="Forms\NumericBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomEventsPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Spreadsheets.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Toolbar.vb">
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WPF\Text.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\CommonDialog.resX">
+      <DependentUpon>CommonDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Splitterbar.resx">
+      <DependentUpon>Splitterbar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass-tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\thumb.png" />
+    <Resource Include="Resources\WebCamWarning.png" />
+    <None Include="UI.cd" />
+    <None Include="Resources\button_led.png" />
+    <None Include="Resources\button_led_off.png" />
+    <None Include="Resources\glassTabGreen.png" />
+    <None Include="Resources\glassTabOrange.png" />
+    <None Include="Resources\glassTabRed.png" />
+    <None Include="Resources\glassTabYellow.png" />
+    <None Include="Resources\glassTabDisabled.png" />
+    <None Include="Resources\Add.png" />
+    <None Include="Resources\Delete.png" />
+    <Content Include="bin\WPFVisifire.Charts.dll" />
+    <Content Include="Resources\led-red.png" />
+    <Resource Include="Resources\Loading.gif" />
+    <Content Include="Resources\Prompt.png" />
+    <None Include="Resources\slider-off.ico" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\Redo.png" />
+    <Content Include="Resources\square-off.png" />
+    <None Include="Resources\square-on-disabled.png" />
+    <None Include="VibrantStrongName.snk" />
+    <Content Include="Resources\square-on.png" />
+    <None Include="Resources\Undo.png" />
+    <None Include="Resources\stateoff.png" />
+    <None Include="Resources\stateon.png" />
+    <None Include="x64.obproj" />
+    <None Include="x86.obproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vibrant\Vibrant.vbproj">
+      <Project>{FA00F120-C20C-4FB9-BABD-3113B27551E0}</Project>
+      <Name>Vibrant</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="WPF\Charts\RangeChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF\Charts\RangeBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF\ComboMessageBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\ColorDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\DesktopMessage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\InputMessageBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\ListMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\LoadingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF\NumericUpDown.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF\WarningGauge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\WarningGaugeTemplates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WPF\Themes\generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if not "$(ConfigurationName)" == "Release" goto quit
+if not EXIST "C:\Program Files (x86)\Crypto Obfuscator\co.exe" goto quit
+
+"C:\Program Files (x86)\Crypto Obfuscator\co.exe" projectfile="$(ProjectDir)$(PlatformName).obproj" 
+
+xcopy "$(TargetDir)crypto\*.*" "$(TargetDir)" /u /y
+
+:quit</PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

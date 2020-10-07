@@ -1,0 +1,4 @@
+One Way Mirror will mirror all Files and Directories in the Source Directory into those same-named Files and Directories in the Destination Directory.  Only newer files will be copied, and no files or directories will be deleted in the Destination Directory.
+
+
+One Way Mirror is freeware, and may be distributed freely.

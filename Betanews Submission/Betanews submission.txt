@@ -1,0 +1,128 @@
+http://fileforum.betanews.com/authorcenter
+http://fileforum.betanews.com/detail/One-Way-Mirror/1345237599/1
+Keywords: Backup, mirror, copy
+Short description: Utility mirrors files between directories
+Description: A simple to use backup utility that mirrors files between directories
+Long description:
+-----
+One Way Mirror is freeware, and may be copied and distributed freely.
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages arising from the use of this software
+-----
+
+-------------------------------------------------------------------------------------------------------------------
+-v1.0.2013.0222
+ Made a Windows8 complian installer.
+ 
+
+MD5:
+ 097C4700F2109E243CCC9C13F590B9C2 OneWayMirror_Setup_v1.0.2013.0222.exe
+Link to installer:
+ https://docs.google.com/file/d/0B258H385xkQqdENkcFc5RWdabkU/edit?usp=sharing
+Comment:
+ The 2/22/2013 version of the One Way Mirror installer. v1.0.2013.0222 MD5 hash:097C4700F2109E243CCC9C13F590B9C2
+
+ -------------------------------------------------------------------------------------------------------------------
+-v1.0.2013.0222
+ Corrected a problem with text sizing causing wrap-around under some screen resolutions.
+ Corrected a problem with starting as 'Administrator' under Windows 64 bit.
+ Added the ability to save a single-line OWM script file based on the setup in the window.
+
+  
+MD5:
+ F4A21CA0BD23E7D4D9522464025B29D1 OneWayMirror_Setup_v1.0.2013.0222.exe
+Link to installer:
+ https://docs.google.com/file/d/0B258H385xkQqR2F2SnE4T3B3WW8/edit?usp=sharing
+Comment:
+ The 2/22/2013 version of the One Way Mirror installer. v1.0.2013.0222 MD5 hash:F4A21CA0BD23E7D4D9522464025B29D1
+
+
+-------------------------------------------------------------------------------------------------------------------
+-v1.0.2012.1001
+ Corrected download link
+ Corrected the Destination directory finder to allow the user to make a new directory.
+ Fixed an issue with directories that contained commas in the directory name.
+ Altered documentation to indicate the quotes should be used around file paths that contain commas in them.
+ Improved command line parser to better indicate ill-formed or non-existent directories.
+ For file path names too long to display properly in the progress bars, the ellipses are used in the middle of the file path name.
+
+  
+MD5:
+ 47E0286C90C9A30CC2AA48FE90DFFCBA OneWayMirror_Setup_v1.0.2012.1001.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqeHJXOG1wUlo0QWs
+Comment:
+ The 10/1/2012 version of the One Way Mirror installer. v1.0.2012.1001 MD5 hash:47E0286C90C9A30CC2AA48FE90DFFCBA
+
+
+-------------------------------------------------------------------------------------------------------------------
+Corrected download link
+-v1.0.2012.0914
+ Corrected issues with the save/recall of the persistent lists used on the form.
+ Significantly enhanced the use of Script (*.owm) files.
+ Including "Close" as the last line of a Script file will cause the application to end.
+ Fixed an issue with the error message not being shown when parameters are incorrect.
+ Added statistics shown on completion.
+ Better status messaging
+
+MD5:
+ FF23B67488E18D622BC33BEE67C34EB1 OneWayMirror_Setup_v1.0.2012.0914.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqRWVXYUFrakRYTTg
+Comment:
+ The 9/14/2012 version of the One Way Mirror installer. v1.0.2012.0914 MD5 hash:FF23B67488E18D622BC33BEE67C34EB1
+
+
+-------------------------------------------------------------------------------------------------------------------
+-v1.0.2012.0912
+ Removed Administrator access request from the application's manifest.
+ The user may request administrator rights directly from the program.
+ Made the buttons more visible - they looked disabled before.
+
+MD5:
+ 914710C8D5880D8DB76C020BF800C071 OneWayMirror_Setup_v1.0.2012.0912.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqeTZ1Sl9pM25ObDA
+Comment:
+ The 9/12/2012 version of the One Way Mirror installer. v1.0.2012.0912 MD5 hash:914710C8D5880D8DB76C020BF800C071
+
+
+-------------------------------------------------------------------------------------------------------------------
+-v1.0.2012.0904
+ Recoded for .Net 2.0 compatibility
+ 
+MD5:
+ D82E19FA1D7884AF4210A1C3D4F6DCF6 OneWayMirror_Setup_v1.0.2012.0904.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqLVJhajBtZzdCM1U
+Comment:
+ The 9/4/2012 version of the One Way Mirror installer. v1.0.2012.0904 MD5 hash:0B258H385xkQqMXNrZXJfVllmWXc
+
+ 
+-------------------------------------------------------------------------------------------------------------------
+-v1.0.2012.0825
+ Added an optional argument 'OnlyCommon' to restrict the copy to those files that already exist
+ in both the source and destination directories.
+ 
+ Fixed an issue with a background thread not closing properly.
+
+MD5:
+ D45E2E9453E042FCB439486FD06DA609 OneWayMirror_Setup_v1.0.2012.0825.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqMXNrZXJfVllmWXc
+Comment:
+ The 8/25/2012 version of the One Way Mirror installer. v1.0.2012.0825 MD5 hash:0B258H385xkQqTDR1YzQtRlN1U2M
+
+
+ -------------------------------------------------------------------------------------------------------------------
+-v1.0.2012.0820
+ Fixed a problem  processing '.Owm' files that had lines without options on the line.
+
+MD5:
+ CA08421E451CD9249836F87E8E4807FC OneWayMirror_Setup_v1.0.2012.0820.exe
+Link to installer:
+ https://docs.google.com/open?id=0B258H385xkQqTDR1YzQtRlN1U2M
+Comment:
+ The 8/20/2012 version of the One Way Mirror installer. (v1.0.2012.0820 MD5 hash:CA08421E451CD9249836F87E8E4807FC
+

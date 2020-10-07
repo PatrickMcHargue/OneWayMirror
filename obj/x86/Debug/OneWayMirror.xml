@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OneWayMirror
+</name>
+</assembly>
+<members>
+<member name="T:OneWayMirror.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OneWayMirror.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OneWayMirror.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OneWayMirror.My.Resources.Resources.mirror_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:OneWayMirror.My.Resources.Resources.mirror_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:OneWayMirror.My.Resources.Resources.Mirror_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="F:OneWayMirror.Constants.textWindowName">
+ <summary>
+ " 'This text must be used as the form's name.  It can not change, in order that we 
+ maintian compatability with the installer/uninstaller.
+ </summary>
+</member>
+<member name="F:OneWayMirror.Constants.textOWMext">
+ <summary>
+ String constants used in place of in-line strings.
+ </summary>
+</member>
+<member name="F:OneWayMirror.OneWayMirror._CommandTimer">
+ <summary>
+ This timer is used to allow the form to show before the command line parameter
+ is processed via the timers 'tick'.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.GetFormEntryAsString(System.Boolean)">
+ <summary>
+ Retrn the data entered on the form as a string.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.LoadOurSettings">
+ <summary>
+ This routine is used to load all setings from the user area of the application's settings.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.SaveOurSettings">
+ <summary>
+ This routine is used to save all setings into the user area of the application's settings.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.ConfigureCancelExit(System.Boolean)">
+ <summary>
+ This routine sets the CancelExit button to act either as a Cancel button, or as an Exit button. 
+ </summary>
+ <param name="SetAsCancel">If True, set Cancel button, else set Exit button.</param>
+ <remarks>This also corrects the enable for other of the form's controls.</remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.ParseCommandLineOntoForm(System.String)">
+ <summary> 
+ This routine will parse the CommandLine input argument into the Source and Destination directories, and determine
+ what options are set.  If this can be done without error, then the form will be setup according to the CommandLine.
+ </summary>
+ <param name="commandLine">The line that contains the comma-delimited Source and Destination directories, as
+ well as the other option parameters.</param>
+ <returns>True if the CommandLine can be parsed into the 'SourceDirectory', 'DestinationDirectory', and options
+ flag.  Otherwise False, with the 'ErrorMessage' set to the reason.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.ParseCommentIntoLabel(System.Windows.Forms.Label,System.String)">
+ <summary>
+ This routine returns a line stripped of a comment section.  That comment section is loaded into the
+ .Text field of the passed in Label control.
+ </summary>
+ <param name="labelToLoad">The Label control to load with the comment.</param>
+ <param name="lineToParse">The line to parse for a command.</param>
+ <returns>The line to parse without the comment section.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.ExecuteBackup">
+ <summary>
+ This routine wil initiate a backup using the data that's on the form.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.FileDoesExist(System.String)">
+ <summary>
+ This function will take an arbitrary string, and determine if it represents a valid file.
+ </summary>
+ <param name="testFilePathName">The directory path to test.</param>
+ <returns>True if valid, else False.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.LabelTheForm">
+ <summary>
+ This routine labels the form with it's name, and version information.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.EnableQueueCommandListProcessing">
+ <summary>
+ This will set the CommandTimer to fire if there are any items left in the queueCommandList.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.DirectoryDoesExist(System.String)">
+ <summary>
+ This function will take an arbitrary string, and determine if it represents a valid directory.
+ </summary>
+ <param name="testDirectoryPathName">The directory path to test.</param>
+ <returns>True if valid, else False.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.GetValidDirectory(System.String)">
+ <summary>
+ Returns the directory passed in, if it exist, od the usder's docmuents folder on the system.
+ </summary>
+ <param name="directoryPathName">The FilePath to test.</param>
+ <returns>The Fileath is it exists, or the user's documents folder.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.GetDestinationDirectoryPath(OneWayMirror.CopyInformation,System.String)">
+ <summary>
+ This routine is used to get the destination directory for a file given the sourse root, and
+ destination root directories.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="filePathName">The file path name of thje file to copy.</param>
+ <returns>A complete file path name in the destination directory.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.GetTextInTicks(System.String)">
+ <summary>
+ Return the text in ticks.
+ </summary>
+ <param name="textToTick">The text to format.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.GetPathInQuotes(System.String)">
+ <summary>
+ Return the entire 'pathToParse' in quotes.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.QueueOwmFileCommands(System.Collections.Queue,System.String)">
+ <summary>
+ This function will either locate a '.OWM' file to run as a script, or use the .OWM FilePathName
+ passed into it.
+ </summary>
+ <param name="useFilePathName">If set, it is the FilePathName of the '.OWM' script file to run.</param>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.RecurseSorceDirectories(OneWayMirror.CopyInformation,System.IO.DirectoryInfo,System.Int32@)">
+ <summary>
+ This function is use to recurse through the Source Directories.  As it does this, it may either copy
+ files from the Source Directory to the DestinationDirectory, or it may simple count the number of
+ Source Directories.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="currentDirectory">The current Directory to start recursing from.</param>
+ <param name="directoryCount">When set non-zero, this function is being used to get a count of Source
+ Directories.  Wehn it returns, this value will be the count of Source Directories.</param>
+ <returns></returns>
+ <remarks>This is used to count Source Directories in order to get a completion count.</remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.CopyFilesBetweenDirectories(OneWayMirror.CopyInformation,System.IO.DirectoryInfo)">
+ <summary>
+ This function is used to copy files from the current Source Directory to the associated Destination
+ Directory.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="currentDirectory">The current Directory to copy files from.</param>
+ <returns>True if the copies are successful, else False.</returns>
+ <remarks>If the user cancels, False will be rfeturnes.</remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.CopyTheFileBetweenDirectories(OneWayMirror.CopyInformation,System.IO.FileInfo@,System.String@)">
+ <summary>
+ This routine is responsible for copying a file from the source, to the destination if the destination file is
+ older than the source file, 
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="sourceFileInfo">Infomration on the Source file.</param>
+ <param name="destinationFilePathName">The complete FilePathName of the Destination file.</param>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.CorrectDirectoryAttributes(OneWayMirror.CopyInformation,System.IO.DirectoryInfo,System.Boolean)">
+ <summary>
+ This routine is used to test a Directory to see if it has the proper attributes.  Unless it is a root
+ Directory, if can not be marked as 'Hidden' or 'System'.  It must always be marked as 'Directory', and 
+ must never be marked as 'Offline', 'Temporary', or 'ReparsePoint'.  Finally, unless it is a Source
+ Directory, it can not be marked as 'ReadOnly'.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="testDirectoryInfo">The Directory to test.</param>
+ <param name="CanBeReadOnly">A flag to indicate that it can be marked 'ReadOnly'.</param>
+ <returns>True if the attributes are correct, else False.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.VerifyOrCreateDirectory(OneWayMirror.CopyInformation,System.String)">
+ <summary>
+ Returns a flag indicating that a Directory exists with the proper attributes, even if it  
+ needs to be created.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="newDirectoryName">The name of the Directory that must exist, or be created.</param>
+ <returns>True if the Directory exists, else False.</returns>
+ <remarks>Only Source Directories can be read-only, and only Destination
+ Directories are created.</remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.CorrectFileAttributes(OneWayMirror.CopyInformation,System.IO.FileInfo)">
+ <summary>
+ This routine is used to test a File to see if it has the proper attributes.  It can not be marked
+ as 'Directory', 'Hidden', OffLine', 'System', 'Temporary', or 'ReparsePoint'.
+ </summary>
+ <param name="myCopyInformation"></param>
+ <param name="testFileInfo">The file to test.</param>
+ <returns>True if the attributes are correct, else False.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.myWorkerThread_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ This starts the process in the background thread of recursing directories, and copy files between directories.
+ </summary>
+</member>
+<member name="M:OneWayMirror.OneWayMirror.myWorkerThread_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+ <summary>
+ Each time the background thread issues an update, we come here, along the UI thread, so that we can display information.
+ </summary>
+</member>
+</members>
+</doc>

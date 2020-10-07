@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xp ProgressBar Demo", "Demo\Xp ProgressBar Demo.csproj", "{CE78A162-6634-47D3-90FD-50005E9C0298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xp ProgressBar", "Control\Xp ProgressBar.csproj", "{98348D7A-6606-4CEA-BAC9-859D435C5988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78A162-6634-47D3-90FD-50005E9C0298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98348D7A-6606-4CEA-BAC9-859D435C5988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {3F06C842-0E66-4F9D-A97D-2B17EEFCEC52}
+	EndGlobalSection
+EndGlobal

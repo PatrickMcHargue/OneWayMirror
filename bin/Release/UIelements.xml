@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UIelements
+</name>
+</assembly>
+<members>
+<member name="P:UIelements.CancelExitButton.IsCancel">
+	<summary>
+ Get/Set if the button is a Cancel button, or an Exit button.
+ </summary>
+</member><member name="P:UIelements.CancelExitButton.IsExit">
+	<summary>
+ Get/Set if the button is a Exit button, or an Cancel button.
+ </summary>
+</member><member name="P:UIelements.CancelExitButton.WasCanceled">
+	<summary>
+ An indication that the button was clicked on while it was a Cancel button.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:UIelements.CancelExitButton">
+	<summary>
+ This class is used to provide a Button that can be an 'Exit' or a 'Cancel' button.  Also,
+ flags are used to communicate the state of the button, and how the user has used it.
+ </summary>
+</member><member name="P:UIelements.ComboBoxWithMemory.ListLength">
+	<summary>
+ Get/Set the length of the list as it is maintained in the application's MySettings. 
+ </summary>
+	<remarks>This is deafulted to 8.</remarks>
+</member><member name="P:UIelements.ComboBoxWithMemory.ShowOnlyFileName">
+	<summary>
+ A flag to show that the list entry shown is a FilePathName, and should be listed as a Filename only.
+ </summary>
+	<remarks>This is deafulted to False.</remarks>
+</member><member name="M:UIelements.ComboBoxWithMemory.AddNewEntry(System.String)">
+	<summary>
+ Add an entry to the list of items.
+ </summary>
+	<param name="newEntry">The text of the entry to add.</param>
+	<remarks></remarks>
+</member><member name="P:UIelements.ComboBoxWithMemory.SettingsItemList">
+	<summary>
+ get/Set the list of ComboBox items using the 'System.Collections.Specialized.StringCollection' class
+ compatible with an application's saved setting.  Note that the length of this list is limited.
+ </summary>
+	<value>The 'System.Collections.Specialized.StringCollection' retreived from the application's MySettings.</value>
+	<returns>A 'System.Collections.Specialized.StringCollection' suitable for storing in the application's MySettings.</returns>
+	<remarks>The length of this list is limited by the 'ListLength' property.</remarks>
+</member><member name="T:UIelements.ComboBoxWithMemory">
+	<summary>
+ This class is used to provide a ComboBox that can remember it's previously listed items.
+ </summary>
+</member><member name="P:UIelements.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:UIelements.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:UIelements.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

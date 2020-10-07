@@ -1,0 +1,12 @@
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Release\XP Progress Bar Samples.exe
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Release\XP Progress Bar Samples.pdb
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\ResolveAssemblyReference.cache
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XpProgressBarSamples.frmSamples.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XpProgressBarSamples.Sample_Animation.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XpProgressBarSamples.Sample_CPU.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XpProgressBarSamples.Sample_GradientMode.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XpProgressBarSamples.Sample_Properties.resources
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\ResGen.read.1.tlog
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\ResGen.write.1.tlog
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XP Progress Bar Samples.exe
+C:\Developer\Pat's Programs\CopyCommonFiles\New Progress Bar\Source\Demo\obj\Debug\XP Progress Bar Samples.pdb

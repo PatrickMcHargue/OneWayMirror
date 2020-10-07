@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OneWayMirror
+</name>
+</assembly>
+<members>
+<member name="P:OneWayMirror.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:OneWayMirror.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:OneWayMirror.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:OneWayMirror.OneWayMirror.textWindowName">
+	<summary>
+ " 'This text must be used as the form's name.  It can not change, in order that we 
+ maintian compatability with the installer/uninstaller.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.ConfigureCancelExit(System.Boolean)">
+	<summary>
+ This routine sets the CancelExit button to act either as a Cancel button, or as an Exit button. 
+ </summary>
+	<param name="SetAsCancel">If True, set Cancel button, else set Exit button.</param>
+	<remarks>This also corrects the enable for other of the form's controls.</remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.ExecuteCopy(System.String,System.String,System.Boolean)">
+	<summary>
+ This routine executes the copy of the Directories and Files from the sourceDirectoryPath to
+ the destinationDirectoryPath.  If the recurseDirectories flag is set, the the Cirectories in
+ the sourceDirectoryPath will be recursed into for their Directories and Files.
+ </summary>
+	<param name="sourceDirectoryPath">The disk path that contains the Directories and Files to be copied.</param>
+	<param name="destinationDirectoryPath">The disk path where the Directories and Files are to be copied to.</param>
+	<param name="recurseDirectories">A flag indicasting that the Directories are to be recursed.</param>
+	<returns>True if successful, else False.</returns>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.ExecuteRunBackupCopyFile(System.String)">
+	<summary>
+ This function will either locate a '.OWM' file to run as a script, or use the .OWM FilePathName
+ passed into it.
+ </summary>
+	<param name="useFilePathName">If set, it is the FilePathName of the '.OWM' script file to run.</param>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.ParseCommandLine(System.String,System.String@,System.String@,System.Boolean@,System.String@,System.String@,System.Boolean)">
+	<summary>
+ This routine will parse the CommandLine input argument into the Source and Destination directories, and determine if the
+ Source directories should be recursed.  If there is an error in the parse, the ErrorMessaage will be set.  The 
+ </summary>
+	<param name="commandLine">The line that contains the comma-delimited Source and Destination directories, as
+ well as the Recurse/NoRecurse parameter.</param>
+	<param name="sourceDirectory">The Source directory, as parsed from the CommandLine.</param>
+	<param name="destinationDirectory">The Destination directory, as parsed from the CommandLine.</param>
+	<param name="recurseDirectories">The Recurse/NoRecurse flag, as parsed from the CommandLine.</param>
+	<param name="errorMessage">If this fails, this message can be shown to the user.</param>
+	<param name="showError">If this fails, the error message will be shown to the user.</param>
+	<returns>True if the CommandLine can be parsed into the 'SourceDirectory', 'DestinationDirectory', and 'RecurseDirectories'
+ flag.  Otherwise False, with the 'ErrorMessage' set to the reason.</returns>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.RecurseSorceDirectories(System.Boolean@,System.String@,System.String@,System.IO.DirectoryInfo,System.Int32@)">
+	<summary>
+ This function is use to recurse through the Source Directories.  As it does this, it may either copy
+ files from the Source Directory to the DestinationDirectory, or it may simple count the number of
+ Source Directories.
+ </summary>
+	<param name="RecurseFlag">A flag to indicate that we should recurse into the Source Direftory.</param>
+	<param name="rootSourcePathName">The Source Directory root.</param>
+	<param name="rootDestinationPathName">The Destination Directory root.</param>
+	<param name="currentDirectory">The current Directory to start recursing from.</param>
+	<param name="directoryCount">When set non-zero, this function is being used to get a count of Source
+ Directories.  Wehn it returns, this value will be the count of Source Directories.</param>
+	<returns></returns>
+	<remarks>This is used to count Source Directories in order to get a completion count.</remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.VerifyOrCreateDirectory(System.String,System.Boolean)">
+	<summary>
+ Returns a flag indicating that a Directory exists, even if it needs to be created.
+ </summary>
+	<param name="newDirectoryName">The name of the Directory that must exist, or be created.</param>
+	<param name="canBeReadOnly">A flag to indicate if the Direfctory can be read-only.</param>
+	<returns>True if the Directory exists, else False.</returns>
+	<remarks>Only Source Directories can be read-only, and only Destination
+ Directories are created.</remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.CorrectDirectoryAttributes(System.IO.DirectoryInfo,System.Boolean)">
+	<summary>
+ This routine is used to test a Directory to see if it has the proper attributes.  Unless it is a root
+ Directory, if can not be marked as 'Hidden' or 'System'.  It must always be marked as 'Directory', and 
+ must never be marked as 'Offline', 'Temporary', or 'ReparsePoint'.  Finally, unless it is a Source
+ Directory, it can not be marked as 'ReadOnly'.
+ </summary>
+	<param name="testDirectoryInfo">The Directory to test.</param>
+	<param name="CanBeReadOnly">A flag to indicate that it can be marked 'ReadOnly'.</param>
+	<returns>True if the attributes are correct, else False.</returns>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.CorrectFileAttributes(System.IO.FileInfo)">
+	<summary>
+ This routine is used to test a File to see if it has the proper attributes.  It can not be marked
+ as 'Directory', 'Hidden', OffLine', 'System', 'Temporary', or 'ReparsePoint'.
+ </summary>
+	<param name="testFileInfo">The file to test.</param>
+	<returns>True if the attributes are correct, else False.</returns>
+	<remarks></remarks>
+</member><member name="M:OneWayMirror.OneWayMirror.DirectoryDoesExist(System.String)">
+	<summary>
+ This function will take an arbitrary string, and deternine if it represents a valid directory.
+ </summary>
+	<param name="directoryPathName">The directory path to test.</param>
+	<returns>True if valid, else False.</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
